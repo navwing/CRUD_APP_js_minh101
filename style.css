@@ -1,0 +1,37 @@
+
+.container{
+    width: 800px;
+    
+}
+.register{
+    height: 30px;
+    background-color: forestgreen;
+}
+.tittle{
+    background-color: rgb(30, 173, 59);
+    color: white;
+    height: 50px;
+}
+#submit{
+    background-color: rgb(30, 173, 59);
+    color: white;
+    border: none;
+}
+#reset{
+    background-color: rgb(232, 193, 52);
+    color: white;
+    border: none;
+}
+.submit{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.inputBox{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.table{
+    display: inline-flex;
+    justify-content: center;
+    justify-items: center;
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Register User</title>
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+        <form action="" class="form_submit">
+            <div class="row">
+                <div class="col">
+                    <h3 class="tittle"> Dang ky tai khoan user</h3>
+                    <div class="inputBox">
+                        <div> Username : </div>
+                        <input type="text"   id="username" style="width: 90%;">
+                    </div>
+                    <div class="inputBox">
+                        <div> Fullname : </div>
+                        <input type="text" id="fullname" style="width: 90%;">
+                    </div>
+                    <div class="inputBox">
+                        <div> Email : </div>
+                        <input type="email"  id="email" style="width: 90%;">
+                    </div>
+                    <div class="inputBox">
+                        <div> Birthday : </div>
+                        <input type="date"  id="birthday" style="width: 90%;">
+                    </div>
+                    <div class="submit">
+                        <span><button type="submit" id="submit" class="btnSave ">Save</button></span>
+                        <span><button type="reset" id="reset" class="btnReset">Reset</button></span>
+                    </div>
+
+                </div>
+            </div>
+        </form>
+    </div>
+    <table class="table" id="render">
+        <thead>
+            <tr>
+                <th class="table-ele">#</th>
+                <th class="table-ele">User name</th>
+                <th class="table-ele">Full name</th>
+                <th class="table-ele">Email</th>
+                <th class="table-ele">Birthday</th>
+                <th>Actions</th>
+            </tr>
+        </thead>
+    </table>
+</body>
+<script src="main.js"></script>
+</html>
